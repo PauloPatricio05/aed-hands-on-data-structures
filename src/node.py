@@ -1,3 +1,4 @@
 class Node:
-    def __init__(self, value: int) -> None:
-        raise NotImplementedError
+    def __init__(self, value: int):
+        self.value = value
+        self.next = None
